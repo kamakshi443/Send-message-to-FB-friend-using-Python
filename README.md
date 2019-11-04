@@ -4,7 +4,7 @@ The power of Python comes because of the large number of modules it has. This ti
 us, one time or another, has a wish of messaging (or spamming -.-) our Facebook friend. This is a program which can do something 
 similar. So without further delay, let’s jump right in.
 
-##fbchat Installation:
+## fbchat Installation:
 
 sudo pip install fbchat
 
