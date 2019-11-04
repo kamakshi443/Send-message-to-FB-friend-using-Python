@@ -17,7 +17,7 @@ sudo apt-get install python-dev libxml2-dev libxslt1-dev zlib1g-dev
 ## Program explanation:
 The program can be broken down into several steps:
 
-### Step – 1: 
+#### Step – 1: 
    Getting the user credentials
 
 This part is very easy. Using raw_input() and getpass() we can get the username and password. There are some things to keep in mind in this step.
@@ -25,10 +25,12 @@ This part is very easy. Using raw_input() and getpass() we can get the username 
     Your facebook account should have a username. You can check that (or set that) by going to your general settings.
     We are not using raw_input to get password because as soon as the characters (or even the password length) is out, we have got a security breach.
 
-Step – 2: Entering the facebook friend’s name
+#### Step – 2: 
+   Entering the facebook friend’s name
 Now that we have signed in, we can enter the number of friends we want to send the message to and for each of those friends, we can enter the custom message.
 
-Step – 3: Spamming *evil*
+#### Step – 3: 
+   Spamming *evil*
 
     Caution – I am not responsible for extensive usage of the program which can get you banned from facebook or getting blocked by your friend. Get your own list of guinea pigs!
 
