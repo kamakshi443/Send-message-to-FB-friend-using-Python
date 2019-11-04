@@ -10,13 +10,15 @@ sudo pip install fbchat
 
 In case you get the error: ** make sure the development packages of libxml2 and libxslt are installed **
 
-##In Ubuntu, installing following packages might help:
+## In Ubuntu, installing following packages might help:
 
 sudo apt-get install python-dev libxml2-dev libxslt1-dev zlib1g-dev
 
-Program explanation:The program can be broken down into several steps:
+## Program explanation:
+The program can be broken down into several steps:
 
-Step – 1: Getting the user credentials
+### Step – 1: 
+   Getting the user credentials
 
 This part is very easy. Using raw_input() and getpass() we can get the username and password. There are some things to keep in mind in this step.
 
@@ -32,11 +34,11 @@ Step – 3: Spamming *evil*
 
 Because of some reason, if you want to send the same message several times, you can use a simple for loop. Nothing difficult about that 😉
 
-##What you can try out now?
+## What you can try out now?
 
     Send message to a group chat.
     Instead of text only, send images as well.
     Create your own ‘desktop’ messenger.
 
-##Facebook hack – Send blank message
+## Facebook hack – Send blank message
 Using the normal facebook chat or messenger, it is not possible to send a blank message unless you are aware about the alt+0173 trick. But, with this program you can send blank messages as well!! All you have to do is enter a blank message. That is, when the program asks for the message to be sent, just press enter and voila!! Your friend will be receiving a series of blank messages…
